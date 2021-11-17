@@ -1,0 +1,24 @@
+{
+  "name": "builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "tap": "^15.1.1"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "tap",
+    "start": "node ./index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raulsoledispa/nodejs-design-patterns.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raulsoledispa/nodejs-design-patterns/issues"
+  },
+  "homepage": "https://github.com/raulsoledispa/nodejs-design-patterns#readme"
+}
