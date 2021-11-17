@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-design-patterns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix"
+  },
+  "workspaces": [
+    "src/*"
+  ],
+  "keywords": [
+    "Design Patterns",
+    "nodeJS"
+  ],
+  "author": "Raul Soledispa",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.0.2"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
