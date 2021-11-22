@@ -10,7 +10,9 @@
     "lint:fix": "eslint src --fix"
   },
   "workspaces": [
-    "src/*"
+    "src/builder",
+    "src/factory",
+    "src/proxy"
   ],
   "keywords": [
     "Design Patterns",
