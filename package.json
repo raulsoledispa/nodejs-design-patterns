@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "module": "true",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src",
@@ -23,7 +23,8 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "^7.0.4",
-    "lint-staged": "^12.0.2"
+    "lint-staged": "^12.0.2",
+    "tap": "^15.1.2"
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix"
