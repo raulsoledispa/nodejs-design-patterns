@@ -10,7 +10,7 @@ function consoleFactory(color) {
   } else if (color === "red") {
     return new RedConsole();
   }
-
+  
   throw new Error("Color type doesn't found");
 }
 
