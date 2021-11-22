@@ -8,5 +8,5 @@ test("verify instance created", async () => {
 });
 
 test("verify Error  when color doesn't found", async () => {
-  throws(consoleFactory("grace"), {}, { skip: true });
+  throws(() => consoleFactory("blonde"), {}, { skip: true });
 });
