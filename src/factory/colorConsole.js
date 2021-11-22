@@ -1,3 +1,3 @@
 export class ColorConsole {
-    log(){}
+  log() {}
 }

@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/raulsoledispa/nodejs-design-patterns/issues"
   },
-  "homepage": "https://github.com/raulsoledispa/nodejs-design-patterns#readme"
+  "homepage": "https://github.com/raulsoledispa/nodejs-design-patterns#readme",
+  "dependencies": {
+    "commander": "^8.3.0"
+  }
 }

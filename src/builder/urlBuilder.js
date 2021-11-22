@@ -59,10 +59,10 @@ export default class UrlBuilder {
   }
 
   /**
-   * 
-   * @param {string} query 
+   *
+   * @param {string} query
    */
-  setQuery(query){
+  setQuery(query) {
     this.query = query;
     return this;
   }
@@ -73,7 +73,7 @@ export default class UrlBuilder {
       this.host,
       this.port,
       this.path,
-      this.query
+      this.query,
     );
   }
 }

@@ -1,4 +1,4 @@
-import { test, type, end } from "tap";
+import { test, type } from "tap";
 import Builder from "../urlBuilder.js";
 test("verify builder", async () => {
   const url = new Builder()

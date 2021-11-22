@@ -11,7 +11,7 @@ export default class Url {
    * @param {number} port
    * @param {string} uri
    */
-  constructor(protocol, hostname, port, path = "", parameters ="") {
+  constructor(protocol, hostname, port, path = "", parameters = "") {
     this.protocol = protocol;
     this.hostname = hostname;
     this.port = port;
