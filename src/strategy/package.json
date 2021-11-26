@@ -1,0 +1,22 @@
+{
+  "name": "strategy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "test": "tap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raulsoledispa/nodejs-design-patterns.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raulsoledispa/nodejs-design-patterns/issues"
+  },
+  "homepage": "https://github.com/raulsoledispa/nodejs-design-patterns#readme"
+}

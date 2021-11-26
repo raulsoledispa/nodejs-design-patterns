@@ -12,7 +12,8 @@
   "workspaces": [
     "src/builder",
     "src/factory",
-    "src/proxy"
+    "src/proxy",
+    "src/strategy"
   ],
   "keywords": [
     "Design Patterns",
